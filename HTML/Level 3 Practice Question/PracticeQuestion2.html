@@ -1,0 +1,54 @@
+<!-- Qs2. Recreate the following form using HTML : -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Question 3.2</title>
+  </head>
+  <body>
+    <div>
+      <form action="/action">
+        <div>
+            <br>
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" />
+        </div>
+        <div>
+            <br>
+          <label for="sex">Sex : </label>
+          <input type="radio" name="sex" id="Male" value="m"  />
+          <label for="male">Male</label>
+          <input type="radio" name="sex" id="female" value="f" />
+          <label for="female">Male</label>
+        </div>
+        <div>
+            <br>
+            <label for="country">Country : </label>
+            <select name="country" id="country">
+                <option selected>Select an option</option>
+                <option value="Ind">India</option>
+                <option value="Nep">Nepal</option>
+                <option value="Us">USA</option>
+                <option value="Can">Canada</option>
+            </select>
+        </div>
+        <div>
+            <br>
+            <label for="message" >Message : </label><br>
+            <textarea name="message" id="message" rows="3" cols="30"></textarea>
+        </div>
+        <div>
+            <br>
+            <input type="checkbox" name="subscribe" id="subscribe">
+            <label for="subscribe">Subscribe?</label>
+        </div>
+        <div>
+            <br>
+            <button type="submit">Submit</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
