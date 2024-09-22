@@ -1,0 +1,12 @@
+Q1) Write the Hexacode equivalent to rgb(255,255,255) and tell what color is it ? 
+--> Hexacode Equivalent --> #ffffff
+    and the color is "White".
+
+Q2) Write the best possible rgb and hexacodes for followinf color
+    a) Yellow
+    b) Blue
+
+--> Yellow = RGB Color = rgb(255,255,0)
+           = Hexacode = #ffff00
+    Blue = RGB Color = rgb(0,0,255)
+         = Hexacode = #0000ff

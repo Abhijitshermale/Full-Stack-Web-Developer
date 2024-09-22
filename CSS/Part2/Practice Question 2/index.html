@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Practice Question</title>
+  </head>
+  <body>
+    <h1 id="greet" class="myClass">Hello!</h1>
+    <!-- answer -> the color of h1 is green bcos importance of id is greater than class and class importance is greater than selector
+    id > class > selector -->
+
+    <div>
+      <p class="para">This is a paragraph.</p>
+      <!-- answer -> background color will be blue bcos 
+      div p {   importance  = id/class/selector = 0 0 2(bcos 2 selectors used) = 2
+        background-color: black;
+      }
+      .para{    importance = id/class/selector = 0 1 0 = 10
+        background-color: blue;
+      }
+      p{    importance = id/class/selector = 0 0 1 = 1
+        background-color: green;
+      }
+      priority of .para class is 10 which is greater than 2 and 1 -->
+    </div>
+
+    <div class="greetDiv">
+      <p class="greet">
+        Hello World!
+      </p>
+    </div>
+  </body>
+</html>
